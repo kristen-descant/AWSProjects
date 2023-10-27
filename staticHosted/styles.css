@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(145, 134, 180, 0.361);
+}
+img {
+    height: 50vh;
+    margin: 10px;
+}
+@media (max-width: 700px){
+    .divs {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.divs {
+    display: flex;
+}
+.divs div {
+    width: 45vw;
+}
